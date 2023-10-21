@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | Rajarata Books</title>
+
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+        <!-- custom css file link-->
+        <link rel="stylesheet" href="css/css.css">
+    </head>
+    <body>
+        <!-- HEADER SECTION STARTS -->
+        <div class="header">
+            <div class="header-1">
+                <a href="index.html" class="logo"><i class="fas fa-book"></i>RAJARATA BOOKS</a>
+
+                <form action="" class="search-form">
+                    <input type="search" name="" placeholder=" search books here..." id="search-box">
+                    <label for="search-box" class="fas fa-search"></label>
+                </form>
+                <div class="icons">
+                    <div id="search-btn" class="fas fa-search"></div>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <div id="login-btn" class="fas fa-user"></div>
+                </div>
+            </div>
+            <div class="header-2">
+                <nav class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Blog</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+        <!-- HEADER SECTION ENDS -->
+		<section class="toptitle">
+            <h1>Contact</h1>
+    </section>
+	<section class= "des" id="des">
+	<P>We are always happy to hear from our customers and readers. If you have any questions, comments, or suggestions, please feel free to contact us.</p>
+
+	</section>
+	<h1 class="heading"><span>Contact Us</span></h1>
+        <section class="contacts" id="contacts">
+
+            <div class="div1">
+        
+                <div class="row">   
+        
+                <address>
+                    <dl>
+                        <dt>Rajarata Books <br>
+                            Mihinthale,<br>
+                            Srilanka.<br>
+                        </dt><br>
+                        <dd><span>LandPhone:</span>+94 66 4 123 456</dd><br>
+                        <dd><span>Telephone:</span>+94 71 4 183 456 </dd><br>
+                        <dd><span>FAX:</span>+94 800 898 898</dd><br>
+                        <dd>E-mail: <a href="#" class="col1">info@rajaratabooks.com</a></dd>
+                    </dl>
+                                </address>
+        
+            </div>
+            </div>
+        
+            <div class="div2">
+                <h3> Get in Touch</h3>
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <div class="inputBox">
+                        <input type="text" placeholder="Name"> 
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" placeholder="Country"> 
+                    </div>
+                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                    <div>
+                    <input type="submit" class="btn" value="send message">
+                    </div>
+                </form>
+            </div>
+            <script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "rajaratabooks",
+    Password : "rjtbooks1212",
+    To : 'himalsamaranayake.3@gmail.com',
+    From : "index.html",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+</script>
+        
+        </section>
+
+        <!-- Social Links-->
+<section class="social">
+    <h1 class="heading"><span>Social Media</span></h1>
+    <div class="share">
+        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+        <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-whatsapp"></a>
+        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+    </div>
+
+</section>
+
+<!-- Social Links-->
+
+ <!--FOOTER-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>About Us</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>Quality Service</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>customer care</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>1000+ Books</a>
+        </div>
+        <div class="box">
+            <h3>Our Service</h3>
+            <a href="about.html"><i class="fas fa-book"></i>About us</a>
+            <a href="#"><i class="fas fa-book"></i>Privacy Policy</a>
+            <a href="#"><i class="fas fa-book"></i>Terms</a>
+        </div>
+        <div class="box">
+            <h3>Exta Links</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>shop</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>cart</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>favorite</a>
+
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#"><i class="fas fa-phone"></i>+94 77 4 123 456</a>
+            <a href="#"><i class="fas fa-phone"></i>+94 71 4 183 456</a>
+            <a href="#"><i class="fas fa-envelope"></i>info@rajaratabooks.com</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer1">
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-whatsapp"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="credit"> cretad by <span>Group 13</span> all right reserved!</div>
+
+</section>
+
+
+<!--FOOTER ENDS-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+    </body>
+
+</html>
